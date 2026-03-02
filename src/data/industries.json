@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Corporate Finance",
+    "icon": "💰"
+  },
+  {
+    "id": 2,
+    "name": "Technology Consulting",
+    "icon": "🔬"
+  },
+  {
+    "id": 3,
+    "name": "Healthcare Consulting",
+    "icon": "🏥"
+  },
+  {
+    "id": 4,
+    "name": "Economic Consulting",
+    "icon": "📊"
+  },
+  {
+    "id": 5,
+    "name": "Forensic & Litigation",
+    "icon": "⚖️"
+  },
+  {
+    "id": 6,
+    "name": "Strategic Communications",
+    "icon": "📢"
+  }
+]

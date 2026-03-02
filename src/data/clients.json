@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "TechCorp",
+    "logo": "TC"
+  },
+  {
+    "id": 2,
+    "name": "GlobalBank",
+    "logo": "GB"
+  },
+  {
+    "id": 3,
+    "name": "HealthPlus",
+    "logo": "HP"
+  },
+  {
+    "id": 4,
+    "name": "RetailMax",
+    "logo": "RM"
+  },
+  {
+    "id": 5,
+    "name": "CloudSync",
+    "logo": "CS"
+  },
+  {
+    "id": 6,
+    "name": "EcoGreen",
+    "logo": "EG"
+  }
+]

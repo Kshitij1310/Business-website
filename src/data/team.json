@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Alexander Morgan",
+    "role": "Founder & CEO",
+    "image": "👨‍💼",
+    "social": {
+      "linkedin": "#",
+      "twitter": "#"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Sarah Johnson",
+    "role": "Chief Strategy Officer",
+    "image": "👩‍💼",
+    "social": {
+      "linkedin": "#",
+      "twitter": "#"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Michael Chen",
+    "role": "Head of Digital Transformation",
+    "image": "👨‍💻",
+    "social": {
+      "linkedin": "#",
+      "twitter": "#"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Emily Rodriguez",
+    "role": "Operations Director",
+    "image": "👩‍💻",
+    "social": {
+      "linkedin": "#",
+      "twitter": "#"
+    }
+  }
+]
