@@ -1,6 +1,15 @@
-# Business Website (React + Vite)
+# Business Website
 
-A modern business website built with **React**, **Vite**, **Tailwind CSS**, and **Zustand**.
+This project is a responsive business website built with React and Vite.  
+It includes service-focused sections, company highlights, and interactive forms like **Get a Quote** and **Request a Callback**.
+
+## What this project includes
+
+- Clean landing page with reusable section components
+- Dynamic sections powered by JSON data (`services`, `industries`, `clients`, `team`, `stats`)
+- Quote and callback forms with validation
+- Modal + toast flow for better user feedback
+- Basic admin dashboard page for managing/monitoring quote-related UI state
 
 ## Tech Stack
 
@@ -8,41 +17,41 @@ A modern business website built with **React**, **Vite**, **Tailwind CSS**, and 
 - Vite 7
 - Tailwind CSS
 - React Router
-- Zustand
-- React Hook Form + Zod
+- Zustand (state management)
+- React Hook Form + Zod (form handling and validation)
 
 ## Getting Started
 
-### 1) Install dependencies
+### Prerequisites
+
+- Node.js (LTS recommended)
+- npm
+
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-### 2) Run development server
+### Start development server
 
 ```bash
 npm run dev
 ```
 
-Open the app at the local URL shown in your terminal (usually `http://localhost:5173`).
+After running this command, open the local URL shown in terminal (usually `http://localhost:5173`).
 
-## Available Scripts
 
-- `npm run dev` — start development server
-- `npm run build` — create production build
-- `npm run preview` — preview production build locally
-- `npm run lint` — run ESLint checks
 
 ## Project Structure
 
 ```text
 src/
-  components/      # Reusable UI and page sections
-  data/            # Static JSON data files
-  lib/             # Constants, validations, helpers
-  pages/           # Route-level pages
-  store/           # Zustand state stores
+  components/      # Reusable UI blocks and page sections
+  data/            # JSON data for content-driven sections
+  lib/             # Constants, session helpers, validations
+  pages/           # Route-level pages (Home, QuotePage, AdminDashboard)
+  store/           # Zustand stores
   utils/           # Utility components/helpers
 ```
 
@@ -52,17 +61,14 @@ src/
 npm run build
 ```
 
-Production files are generated in the `dist/` folder.
+This creates an optimized production bundle inside the `dist/` folder.
 
 ## Deployment
 
-You can deploy the `dist/` output on any static hosting platform:
+
 
 - Vercel
-- Netlify
-- GitHub Pages
-- Azure Static Web Apps
 
-## Author
+## Repository
 
-Project repository: https://github.com/Kshitij1310/Business-website
+https://github.com/Kshitij1310/Business-website
